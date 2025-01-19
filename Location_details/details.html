@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel-Tales</title>
+
+    <!--=============== FAVICON ===============-->
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicon.png"
+      type="image/x-icon"
+    />
+
+    <!--=============== REMIXICONS ===============-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.4.0/remixicon.css"
+      crossorigin=""
+    />
+
+    <script
+      src="https://kit.fontawesome.com/be48e37a85.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      data-purpose="Layout StyleSheet"
+      title="Web Awesome"
+      href="/css/app-wa-9846671ed7c9dd69b10c93f6b04b31fe.css?vsn=d"
+    />
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.5.1/css/all.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-thin.css"
+    />
+    <link rel="stylesheet" href="./details.css" />
+  </head>
+  <body>
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav_logo">
+          <img src="./img/logo.svg" alt="logo" />
+        </a>
+
+        <div class="nav_menu" id="nav_menu">
+          <ul class="nav_list">
+            <li class="nav_item">
+              <a href="../Home_Parallax/main.html" class="nav_link active_link"
+                >Home</a
+              >
+            </li>
+            <!-- <li class="nav_item">
+              <a href="#about" class="nav_link">About</a>
+            </li>
+            <li class="nav_item">
+              <a href="#popular" class="nav_link">Popular</a>
+            </li> -->
+            <li class="nav_item">
+              <a href="../Explore/explore.html" class="nav_link">Explore</a>
+            </li>
+          </ul>
+
+          <div class="nav_buttons">
+            <a href="#" class="nav_button_link">Login</a>
+            <a href="#" class="nav_button_ghost">Get Started</a>
+          </div>
+
+          <!-- Close Button -->
+          <div class="nav_close" id="nav_close">
+            <i class="fa-solid fa-xmark"></i>
+          </div>
+        </div>
+
+        <!-- Toggle btn -->
+        <div class="nav_toggle" id="nav_toggle">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </nav>
+    </header>
+    <h2 id="loc_name"></h2>
+    <section id="images">
+      <div class="carousel">
+        <div class="list">
+          <!-- <div
+            class="item"
+            style="
+              background-image: url(https://breathedreamgo.com/wp-content/uploads/2010/03/India-for-Beginners-custom-tours-5.jpg);
+            "
+          >
+            <div class="content">
+              <div class="title">SLIDER</div>
+              <div class="name">EAGLE</div>
+              <div class="des">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Officiis culpa similique consequuntur, reprehenderit dicta
+                repudiandae.
+              </div>
+              <div class="btn">
+                <button>See More</button>
+                <button>Subscribe</button>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="item"
+            style="
+              background-image: url(https://aurangabadtourism.in/images/places-to-visit/header/ajanta-caves-aurangabad-tourism-entry-fee-timings-holidays-reviews-header.jpg);
+            "
+          >
+            <div class="content">
+              <div class="title">SLIDER</div>
+              <div class="name">OWL</div>
+              <div class="des">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Officiis culpa similique consequuntur, reprehenderit dicta
+                repudiandae.
+              </div>
+              <div class="btn">
+                <button>See More</button>
+                <button>Subscribe</button>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="item"
+            style="
+              background-image: url(https://s7ap1.scene7.com/is/image/incredibleindia/ajanta-caves-chhatrapati-sambhaji-nagar-maharashtra-attr-hero-1?qlt=82&ts=1727010611256);
+            "
+          >
+            <div class="content">
+              <div class="title">SLIDER</div>
+              <div class="name">CROW</div>
+              <div class="des">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Officiis culpa similique consequuntur, reprehenderit dicta
+                repudiandae.
+              </div>
+              <div class="btn">
+                <button>See More</button>
+                <button>Subscribe</button>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="item"
+            style="
+              background-image: url(https://images.livemint.com/img/2023/03/10/original/Ajanta_Painting_cave_1_1678457022605.jpg);
+            "
+          >
+            <div class="content">
+              <div class="title">SLIDER</div>
+              <div class="name">BUTTERFLY</div>
+              <div class="des">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Officiis culpa similique consequuntur, reprehenderit dicta
+                repudiandae.
+              </div>
+              <div class="btn">
+                <button>See More</button>
+                <button>Subscribe</button>
+              </div>
+            </div> -->
+          <!-- </div> -->
+        </div>
+
+        <!--next prev button-->
+        <div class="arrows">
+          <button class="prev"><</button>
+          <button class="next">></button>
+        </div>
+
+        <!-- time running -->
+        <div class="timeRunning"></div>
+      </div>
+    </section>
+
+    <section id="details">
+      <!-- <div class="description">
+        <p>
+          The Ajanta Caves, a UNESCO World Heritage Site, are ancient Buddhist
+          rock-cut caves renowned for their exquisite frescoes, paintings, and
+          sculptures that date back to the 2nd century BCE. These caves depict
+          the life and teachings of Buddha, offering visitors a glimpse into
+          ancient Indian art and culture. The site is surrounded by a lush
+          forest, making it a serene and spiritual experience for history
+          enthusiasts and travelers alike. Guided tours are available to help
+          understand the significance of the intricate carvings. It is one of
+          the most iconic archaeological sites in the world.
+        </p>
+      </div>
+      <div class="guide">
+        <h3>Travel Guide</h3>
+        <p>
+          Ajanta Caves are approximately 100 km from Aurangabad city and can be
+          reached by bus or taxi. The nearest railway station is Jalgaon
+          Junction, 60 km away.
+        </p>
+      </div> -->
+    </section>
+
+    <div class="review-section">
+      <div class="review-form">
+        <h2>Submit Your Review</h2>
+        <input type="text" id="location" placeholder="Location Name" required />
+        <input type="text" id="name" placeholder="Your Name" required />
+        <textarea
+          id="review"
+          rows="7"
+          placeholder="Write your review here..."
+          required
+        ></textarea>
+        <button onclick="submitReview()">Submit Review</button>
+      </div>
+
+      <div class="slider">
+        <ul class="reviews" id="reviews-list">
+          <!-- Reviews will be dynamically populated here -->
+        </ul>
+        <div class="slider-controls">
+          <button onclick="prevSlide()">&#10094;</button>
+          <button onclick="nextSlide()">&#10095;</button>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="footer_container container grid">
+        <div class="footer_content grid">
+          <div>
+            <a href="#" class="footer_logo">Travel</a>
+            <p class="footer_desc">
+              Trvel and explore the <br />
+              Maharashtra without limits.
+            </p>
+          </div>
+
+          <div class="footer_data grid">
+            <div>
+              <h3 class="footer_title">About</h3>
+              <ul class="footer_links">
+                <li>
+                  <a href="" class="footer_link">About Us</a>
+                </li>
+                <li>
+                  <a href="" class="footer_link">Features</a>
+                </li>
+                <li>
+                  <a href="" class="footer_link">News & Blog</a>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h3 class="footer_title">Company</h3>
+              <ul class="footer_links">
+                <li>
+                  <a href="" class="footer_link">FAQs</a>
+                </li>
+                <li>
+                  <a href="" class="footer_link">History</a>
+                </li>
+                <li>
+                  <a href="" class="footer_link">Testimonials</a>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h3 class="footer_title">Contact</h3>
+              <ul class="footer_links">
+                <li>
+                  <a href="" class="footer_link">Call Center</a>
+                </li>
+                <li>
+                  <a href="" class="footer_link">Support</a>
+                </li>
+                <li>
+                  <a href="" class="footer_link">Contact Us</a>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h3 class="footer_title">Support</h3>
+              <ul class="footer_links">
+                <li>
+                  <a href="" class="footer_link">Privacy Policy</a>
+                </li>
+                <li>
+                  <a href="" class="footer_link">Terms & Services</a>
+                </li>
+                <li>
+                  <a href="" class="footer_link">Payments</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer_group">
+          <div class="footer_social">
+            <a href="" class="footer_social_link">
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a href="" class="footer_social_link">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="" class="footer_social_link">
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a href="" class="footer_social_link">
+              <i class="fa-brands fa-youtube"></i>
+            </a>
+          </div>
+
+          <span class="footer_copy">
+            &#169; Copyright Travel-Tales. All rights reserved
+          </span>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./details.js"></script>
+  </body>
+</html>
