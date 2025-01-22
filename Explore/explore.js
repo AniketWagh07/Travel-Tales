@@ -87,15 +87,98 @@ window.addEventListener("scroll", bgHeader);
 let cards = document.getElementById("cards");
 let cardsContainer = document.getElementById("container");
 
+// async function details() {
+//   // let data = await fetch("detail.json");
+//   // console.log(data);
+//   let data = await fetch("x.json");
+//   let main = await data.json();
+
+//   console.log(main.places);
+
+//   main.places.map((e) => {
+//     cardsContainer.innerHTML += `
+//             <a href="../Location_details/details.html" onclick="resetCards">
+//             <div id="${e.productId}">
+//             <img src="${e.imageUrl[0]}" alt="${e.name}" />
+//             <i class="fa-solid fa-heart"></i>
+//             <div class="h4">
+//               <h4>${e.name}</h4>
+//             </div>
+//             <h5><i class="fa-solid fa-location-dot"></i>   ${e.location}</h5>
+//             <p><i class="fa-solid fa-compass"></i>    65 kilometres away</p>
+//           </div>
+//           </a>
+//         `;
+//   });
+
+//   let category = document.querySelectorAll("#heading > div > h5");
+//   // console.log(category)
+
+//   category.forEach((a) => {
+//     a.addEventListener("click", (x) => {
+//       cardsContainer.innerHTML = "";
+
+//       category.forEach((l) => {
+//         l.classList.remove("bgActive");
+//       });
+//       a.classList.add("bgActive");
+
+//       if (a.id == "all") {
+//         main.places.map((e) => {
+//           cardsContainer.innerHTML += `
+//                         <a href="../Location_details/details.html" onclick="resetCards">
+//                         <div id="${e.productId}">
+//                         <img src="${e.imageUrl[0]}" alt="${e.name}" />
+//                         <i class="fa-solid fa-heart"></i>
+//                         <div class="h4">
+//                         <h4>${e.name}</h4>
+//                         </div>
+//                         <h5><i class="fa-solid fa-location-dot"></i>   ${e.location}</h5>
+//                         <p><i class="fa-solid fa-compass"></i>    65 kilometres away</p>
+//                         </div>
+//                     </a>
+//                     `;
+//         });
+//       } else {
+//         main.places.map((e) => {
+//           if (a.id == e.category) {
+//             cardsContainer.innerHTML += `
+//                             <a href="../Location_details/details.html" onclick="resetCards()">
+//                             <div id="${e.productId}">
+//                             <img src="${e.imageUrl[0]}" alt="${e.name}" />
+//                             <i class="fa-solid fa-heart"></i>
+//                             <div class="h4">
+//                             <h4>${e.name}</h4>
+//                             </div>
+//                             <h5><i class="fa-solid fa-location-dot"></i>   ${e.location}</h5>
+//                             <p><i class="fa-solid fa-compass"></i>    65 kilometres away</p>
+//                             </div>
+//                         </a>
+//                         `;
+//           }
+//         });
+//       }
+//       resetCards();
+//     });
+//   });
+// }
+
 async function details() {
-  // let data = await fetch("detail.json");
-  // console.log(data);
   let data = await fetch("x.json");
   let main = await data.json();
-
   console.log(main.places);
 
+  // Get user's current location
+  const userLocation = await getUserLocation();
+
   main.places.map((e) => {
+    const distance = calculateDistance(
+      userLocation.latitude,
+      userLocation.longitude,
+      e.coordinates.latitude,
+      e.coordinates.longitude
+    );
+
     cardsContainer.innerHTML += `
             <a href="../Location_details/details.html" onclick="resetCards">
             <div id="${e.productId}">
@@ -105,14 +188,13 @@ async function details() {
               <h4>${e.name}</h4>
             </div>
             <h5><i class="fa-solid fa-location-dot"></i>   ${e.location}</h5>
-            <p><i class="fa-solid fa-compass"></i>    65 kilometres away</p>
+            <p><i class="fa-solid fa-compass"></i>    <span>${distance}</span> kilometres away</p>
           </div>
           </a>
         `;
   });
 
   let category = document.querySelectorAll("#heading > div > h5");
-  // console.log(category)
 
   category.forEach((a) => {
     a.addEventListener("click", (x) => {
@@ -125,6 +207,13 @@ async function details() {
 
       if (a.id == "all") {
         main.places.map((e) => {
+          const distance = calculateDistance(
+            userLocation.latitude,
+            userLocation.longitude,
+            e.coordinates.latitude,
+            e.coordinates.longitude
+          );
+
           cardsContainer.innerHTML += `
                         <a href="../Location_details/details.html" onclick="resetCards">
                         <div id="${e.productId}">
@@ -134,7 +223,7 @@ async function details() {
                         <h4>${e.name}</h4>
                         </div>
                         <h5><i class="fa-solid fa-location-dot"></i>   ${e.location}</h5>
-                        <p><i class="fa-solid fa-compass"></i>    65 kilometres away</p>
+                        <p><i class="fa-solid fa-compass"></i>    <span>${distance}</span> kilometres away</p>
                         </div>
                     </a>
                     `;
@@ -142,6 +231,13 @@ async function details() {
       } else {
         main.places.map((e) => {
           if (a.id == e.category) {
+            const distance = calculateDistance(
+              userLocation.latitude,
+              userLocation.longitude,
+              e.coordinates.latitude,
+              e.coordinates.longitude
+            );
+
             cardsContainer.innerHTML += `
                             <a href="../Location_details/details.html" onclick="resetCards()">
                             <div id="${e.productId}">
@@ -151,7 +247,7 @@ async function details() {
                             <h4>${e.name}</h4>
                             </div>
                             <h5><i class="fa-solid fa-location-dot"></i>   ${e.location}</h5>
-                            <p><i class="fa-solid fa-compass"></i>    65 kilometres away</p>
+                            <p><i class="fa-solid fa-compass"></i>   <span>${distance}</span> kilometres away</p>
                             </div>
                         </a>
                         `;
@@ -162,19 +258,65 @@ async function details() {
     });
   });
 }
-// details()
+
+// Function to get user's current location
+async function getUserLocation() {
+  return new Promise((resolve, reject) => {
+    if (navigator.geolocation) {
+      navigator.geolocation.getCurrentPosition(
+        (position) => {
+          resolve({
+            latitude: position.coords.latitude,
+            longitude: position.coords.longitude,
+          });
+        },
+        (error) => {
+          console.error("Error getting location:", error);
+          reject(error);
+        }
+      );
+    } else {
+      console.error("Geolocation is not supported by this browser.");
+      reject("Geolocation not supported");
+    }
+  });
+}
+
+// Function to calculate distance using the Haversine formula
+function calculateDistance(lat1, lon1, lat2, lon2) {
+  const R = 6371; // Radius of the Earth in kilometers
+  const dLat = ((lat2 - lat1) * Math.PI) / 180;
+  const dLon = ((lon2 - lon1) * Math.PI) / 180;
+
+  const a =
+    Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+    Math.cos((lat1 * Math.PI) / 180) *
+      Math.cos((lat2 * Math.PI) / 180) *
+      Math.sin(dLon / 2) *
+      Math.sin(dLon / 2);
+
+  const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+  return Math.round(R * c * 1.15); // Distance in kilometers
+}
 
 window.selectedCardId = null; // Define as a global variable
+window.selectedCardDistance = null;
 
 function setupCardClickListener() {
-  console.log("function called");
+  // console.log("function called");
   const cards = document.querySelectorAll("#container > a > div");
   console.log(cards);
   cards.forEach((card) => {
     card.addEventListener("click", (e) => {
       // e.preventDefault();
+
+      const dist = document.querySelector(`#${card.id} > p > span`);
+      // console.log(dist.innerHTML);
+
       window.selectedCardId = card.id; // Update the global variable
+      window.selectedCardDistance = dist.innerHTML;
       localStorage.setItem("selectedCardId", card.id);
+      localStorage.setItem("selectedCardDistance", selectedCardDistance);
       console.log(`Selected Card ID: ${window.selectedCardId}`);
     });
   });
@@ -188,6 +330,6 @@ async function initialize() {
 initialize();
 
 function resetCards() {
-//   console.log("reset done");
+  //   console.log("reset done");
   setupCardClickListener();
 }
