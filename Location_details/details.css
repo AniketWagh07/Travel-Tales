@@ -443,6 +443,12 @@ a {
   letter-spacing: 3px;
   line-height: 1.7rem;
 }
+#details > .description > p > span {
+  display: block;
+  margin-bottom: 1rem;
+  font-weight: 700;
+  font-size: 1.3rem;
+}
 #details > .guide {
   width: 30%;
   margin: 3rem 0;

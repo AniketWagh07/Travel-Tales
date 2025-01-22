@@ -1,4 +1,5 @@
 const selectedCardId = localStorage.getItem("selectedCardId"); // Retrieve from localStorage
+const selectedCardDistance = localStorage.getItem("selectedCardDistance");
 // const selectedCardId = "PL001";
 console.log(selectedCardId);
 
@@ -77,6 +78,7 @@ async function details() {
       desc.innerHTML += `
                       <div class="description">
                           <p>
+                          <span>${selectedCardDistance}km Away</span>
                           ${e.description}
                           </p>
                       </div>
