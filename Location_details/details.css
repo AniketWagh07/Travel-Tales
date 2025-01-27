@@ -114,6 +114,9 @@ a {
 .nav_logo {
   width: 36px;
 }
+.nav_logo > img {
+  height: 40px;
+}
 .nav_toggle,
 .nav_close {
   display: inline-flex;
@@ -560,6 +563,153 @@ a {
 
 .slider-controls button:hover {
   background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+  .carousel {
+    width: 90vw;
+    height: 70vh;
+    top: 20%;
+    left: 5%;
+  }
+
+  .carousel .list .item {
+    width: 150px;
+    height: 200px;
+  }
+
+  .list .item .content {
+    width: 300px;
+    left: 50px;
+  }
+
+  .content .title,
+  .content .name {
+    font-size: 80px;
+  }
+
+  #details {
+    flex-direction: column;
+    padding: 2rem 5rem;
+    gap: 2rem;
+  }
+
+  #details > .description {
+    width: 100%;
+  }
+
+  #details > .guide {
+    width: 100%;
+  }
+
+  .review-section {
+    flex-direction: column;
+    padding: 15px;
+  }
+
+  .slider {
+    max-width: 600px;
+  }
+}
+
+@media (max-width: 768px) {
+  .carousel {
+    height: 60vh;
+    top: 15%;
+  }
+
+  .carousel .list .item {
+    width: 120px;
+    height: 180px;
+  }
+
+  .list .item .content {
+    width: 250px;
+    left: 30px;
+  }
+
+  .content .title,
+  .content .name {
+    font-size: 60px;
+  }
+
+  #details {
+    padding: 1.5rem;
+  }
+
+  #details > .description > p {
+    font-size: 1rem;
+    letter-spacing: 2px;
+  }
+
+  .review-section {
+    padding: 10px;
+  }
+
+  .slider {
+    padding: 10px; /* Reduce padding for smaller screens */
+    padding-bottom: 3rem;
+  }
+
+  .slider-controls {
+    top: 90%; /* Move the buttons below the text */
+    transform: translateY(-50%); /* Adjust position */
+    padding: 0 10px; /* Reduce padding for smaller screens */
+  }
+
+  .slider-controls button {
+    width: 40px; /* Smaller buttons for smaller screens */
+    height: 40px;
+    padding: 5px 10px;
+    font-size: 14px;
+  }
+
+  .review-form input,
+  .review-form textarea,
+  .review-form button {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .carousel {
+    height: 50vh;
+    top: 10%;
+  }
+
+  .carousel .list .item {
+    width: 100px;
+    height: 150px;
+  }
+
+  .list .item .content {
+    width: 200px;
+    left: 20px;
+  }
+
+  .content .title,
+  .content .name {
+    font-size: 40px;
+  }
+
+  #details {
+    padding: 1rem;
+  }
+
+  #details > .description > p {
+    font-size: 0.9rem;
+  }
+
+  .review-form input,
+  .review-form textarea,
+  .review-form button {
+    font-size: 12px;
+  }
+
+  .slider-controls button {
+    padding: 5px 10px;
+  }
 }
 
 /* --------- Footer --------- */

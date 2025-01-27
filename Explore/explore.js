@@ -180,7 +180,7 @@ async function details() {
     );
 
     cardsContainer.innerHTML += `
-            <a href="../Location_details/details.html" onclick="resetCards">
+            <a href="../Location_details/details.html">
             <div id="${e.productId}">
             <img src="${e.imageUrl[0]}" alt="${e.name}" />
             <i class="fa-solid fa-heart"></i>
@@ -215,7 +215,7 @@ async function details() {
           );
 
           cardsContainer.innerHTML += `
-                        <a href="../Location_details/details.html" onclick="resetCards">
+                        <a href="../Location_details/details.html">
                         <div id="${e.productId}">
                         <img src="${e.imageUrl[0]}" alt="${e.name}" />
                         <i class="fa-solid fa-heart"></i>
@@ -239,7 +239,7 @@ async function details() {
             );
 
             cardsContainer.innerHTML += `
-                            <a href="../Location_details/details.html" onclick="resetCards()">
+                            <a href="../Location_details/details.html">
                             <div id="${e.productId}">
                             <img src="${e.imageUrl[0]}" alt="${e.name}" />
                             <i class="fa-solid fa-heart"></i>
