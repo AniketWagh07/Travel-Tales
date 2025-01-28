@@ -1,3 +1,35 @@
+// Check login state from sessionStorage
+const is_loggedIn = sessionStorage.getItem("is_loggedIn") === "true";
+const userName = sessionStorage.getItem("userName");
+
+const loginButton = document.getElementById("login_button");
+const signupButton = document.getElementById("signup_button");
+
+if (is_loggedIn) {
+  // User is logged in, update buttons
+  loginButton.textContent = userName;
+  loginButton.href = "#"; // Optionally link to user profile or dashboard
+  loginButton.classList.add("nav_button_user"); // Add a class for styling if needed
+
+  signupButton.textContent = "Logout";
+  signupButton.href = "#";
+  signupButton.addEventListener("click", (e) => {
+    e.preventDefault();
+    // Clear sessionStorage and reload
+    sessionStorage.clear();
+    alert("You have logged out.");
+    location.reload();
+  });
+} else {
+  // User is not logged in, default behavior
+  loginButton.textContent = "Login";
+  loginButton.href = "../Login_SignUp/login.html"; // Redirect to login page
+
+  signupButton.textContent = "SignUp";
+  signupButton.href = "../Login_SignUp/signup.html"; // Redirect to signup page
+}
+
+//---------------------------------------------------------------
 const selectedCardId = localStorage.getItem("selectedCardId"); // Retrieve from localStorage
 const selectedCardDistance = localStorage.getItem("selectedCardDistance");
 // const selectedCardId = "PL001";
