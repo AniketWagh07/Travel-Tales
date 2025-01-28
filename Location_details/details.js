@@ -85,6 +85,7 @@ async function details() {
   let data = await fetch("../Explore/x.json");
   let main = await data.json();
   let loc_name = document.getElementById("loc_name");
+  let map = document.getElementById("map");
 
   main.places.map((e) => {
     if (e.productId == selectedCardId) {
@@ -121,6 +122,9 @@ async function details() {
                           </p>
                       </div>
                       `;
+
+      console.log(e.mapEmbed);
+      map.innerHTML = e.mapEmbed;
     }
   });
 }

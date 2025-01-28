@@ -16,7 +16,8 @@
       "coordinates": {
         "latitude": 20.552037,
         "longitude": 75.703053
-      }
+      },
+      "mapEmbed": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3735.8986187324913!2d75.70436067506738!3d20.551328580981245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd97f7014a75e43%3A0x7ca8d7c57639691f!2sAjanta%20Caves!5e0!3m2!1sen!2sin!4v1738070569257!5m2!1sen!2sin\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
     },
     {
       "productId": "PL002",
@@ -34,7 +35,8 @@
       "coordinates": {
         "latitude": 20.026814,
         "longitude": 75.179534
-      }
+      },
+      "mapEmbed": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3748.5645078258494!2d75.17451197505284!3d20.026784381383525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdb93bd138ae4bd%3A0x574c6482cf0b89cf!2sEllora%20Caves!5e0!3m2!1sen!2sin!4v1738072373127!5m2!1sen!2sin\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
     },
     {
       "productId": "PL003",
@@ -52,7 +54,8 @@
       "coordinates": {
         "latitude": 18.366615,
         "longitude": 73.75528
-      }
+      },
+      "mapEmbed": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3786.583483523325!2d73.75330277500925!3d18.366276982697656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc293e6861118d9%3A0xcbb4d589c7d4e90b!2sSinhagad%20Fort!5e0!3m2!1sen!2sin!4v1738072684537!5m2!1sen!2sin\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
     },
     {
       "productId": "PL004",
@@ -70,7 +73,8 @@
       "coordinates": {
         "latitude": 17.923894,
         "longitude": 73.658585
-      }
+      },
+      "mapEmbed": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30369.086043524414!2d73.62818205624765!3d17.9258210155651!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2655313cba1bb%3A0xca8196c7aa20a0a8!2sMahabaleshwar%2C%20Maharashtra%20412806!5e0!3m2!1sen!2sin!4v1738072786833!5m2!1sen!2sin\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
     },
     {
       "productId": "PL005",
@@ -88,7 +92,8 @@
       "coordinates": {
         "latitude": 20.2411,
         "longitude": 79.3356
-      }
+      },
+      "mapEmbed": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3742.687562483075!2d79.38757059999999!3d20.2717885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a2ccd16b6538703%3A0x418b2e1575b004d1!2sTadoba-Andhari%20Tiger%20Reserve!5e0!3m2!1sen!2sin!4v1738072882650!5m2!1sen!2sin\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
     },
     {
       "productId": "PL006",
@@ -107,7 +112,8 @@
       "coordinates": {
         "latitude": 17.1517,
         "longitude": 73.2622
-      }
+      },
+      "mapEmbed": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15249.814741265614!2d73.26503005!3d17.14812795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bea1007c2ae1b25%3A0x1161b3dec01414fc!2sGanpatipule%20Beach!5e0!3m2!1sen!2sin!4v1738072945314!5m2!1sen!2sin\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
     },
     {
       "productId": "PL007",
@@ -125,7 +131,8 @@
       "coordinates": {
         "latitude": 18.2349,
         "longitude": 73.4366
-      }
+      },
+      "mapEmbed": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3789.487335388309!2d73.4406903!3d18.233467899999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be8283eb38b1ce5%3A0xfc31826ad34a5b70!2sRaigad%20Fort!5e0!3m2!1sen!2sin!4v1738072994312!5m2!1sen!2sin\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
     },
     {
       "productId": "PL008",
@@ -143,7 +150,8 @@
       "coordinates": {
         "latitude": 19.8762,
         "longitude": 75.3433
-      }
+      },
+      "mapEmbed": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3751.550253367059!2d75.32025515!3d19.901204149999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdb981f052f9c79%3A0x846308f37cdb4f9!2sBIBI%20KA%20MAQBARA!5e0!3m2!1sen!2sin!4v1738073101637!5m2!1sen!2sin\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
     },
     {
       "productId": "PL009",
@@ -161,7 +169,8 @@
       "coordinates": {
         "latitude": 17.9292,
         "longitude": 73.787
-      }
+      },
+      "mapEmbed": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30368.98434172794!2d73.79723664999999!3d17.92641415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2660326292d1b%3A0x7b364992c7d16bfc!2sPanchgani%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1738073166740!5m2!1sen!2sin\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
     },
     {
       "productId": "PL010",
@@ -179,7 +188,8 @@
       "coordinates": {
         "latitude": 18.7513,
         "longitude": 73.4083
-      }
+      },
+      "mapEmbed": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30221.13805645402!2d73.3817915!3d18.76950995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be8012af5c2dcbd%3A0x4e9a732d604a9bd9!2sKhandala%2C%20Lonavala%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1738073216402!5m2!1sen!2sin\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
     },
     {
       "productId": "PL011",
@@ -197,7 +207,8 @@
       "coordinates": {
         "latitude": 18.6205,
         "longitude": 72.8832
-      }
+      },
+      "mapEmbed": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3780.553500640521!2d72.8720214!3d18.639142200000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be87a3bbaac97ef%3A0x5a84bb4da54dafae!2sAlibaug%20Beach!5e0!3m2!1sen!2sin!4v1738073264972!5m2!1sen!2sin\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
     },
     {
       "productId": "PL012",
@@ -215,7 +226,8 @@
       "coordinates": {
         "latitude": 18.9721,
         "longitude": 73.27
-      }
+      },
+      "mapEmbed": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60362.7101825005!2d73.27290599999999!3d18.990203100000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7e5566af9569b%3A0x56bade96248a07e6!2sMatheran%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1738073324263!5m2!1sen!2sin\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
     },
     {
       "productId": "PL013",
@@ -224,14 +236,16 @@
       "location": "Mumbai",
       "howToReach": "CSMT is located in the heart of Mumbai and is well-connected by local and long-distance trains, as well as buses and taxis.",
       "imageUrl": [
-        "https://upload.wikimedia.org/wikipedia/commons/4/4f/CSMT_Mumbai.jpg",
-        "https://www.google.com/imgres?q=chhatrapati%20shivaji%20maharaj%20terminus&imgurl=https%3A%2F%2Fs7ap1.scene7.com%2Fis%2Fimage%2Fincredibleindia%2Fchhatrapati-shivaji-maharaj-terminus-mumbai-maharashtra-1-attr-hero%3Fqlt%3D82%26ts%3D1727355305654&imgrefurl=https%3A%2F%2Fwww.incredibleindia.gov.in%2Fen%2Fmaharashtra%2Fmumbai%2Fchhatrapati-shivaji-maharaj-terminus&docid=X79_ioKABVum7M&tbnid=vGs7IN-vIpB7dM&vet=12ahUKEwjL_oT6mZaLAxVya_UHHXoTAtUQM3oECGQQAA..i&w=1280&h=720&hcb=2&ved=2ahUKEwjL_oT6mZaLAxVya_UHHXoTAtUQM3oECGQQAA"
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6DJQjAC0GyD8gFODbeYpErL6fIjHERJ99Lw&s",
+        "https://www.google.com/imgres?q=chhatrapati%20shivaji%20maharaj%20terminus&imgurl=https%3A%2F%2Fs7ap1.scene7.com%2Fis%2Fimage%2Fincredibleindia%2Fchhatrapati-shivaji-maharaj-terminus-mumbai-maharashtra-1-attr-hero%3Fqlt%3D82%26ts%3D1727355305654&imgrefurl=https%3A%2F%2Fwww.incredibleindia.gov.in%2Fen%2Fmaharashtra%2Fmumbai%2Fchhatrapati-shivaji-maharaj-terminus&docid=X79_ioKABVum7M&tbnid=vGs7IN-vIpB7dM&vet=12ahUKEwjL_oT6mZaLAxVya_UHHXoTAtUQM3oECGQQAA..i&w=1280&h=720&hcb=2&ved=2ahUKEwjL_oT6mZaLAxVya_UHHXoTAtUQM3oECGQQAA",
+        "https://i0.wp.com/azureskyfollows.com/wp-content/uploads/2023/07/CSMT-tour-in-Mumbai.jpeg?resize=1140%2C855&ssl=1"
       ],
       "category": "Cultural Sites",
       "coordinates": {
         "latitude": 18.94,
         "longitude": 72.8344
-      }
+      },
+      "mapEmbed": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3773.8090441975164!2d72.8354475!3d18.9398446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7ce27b8aa3bdf%3A0x21434b0703218d1b!2sChhatrapati%20Shivaji%20Maharaj%20Terminus!5e0!3m2!1sen!2sin!4v1738073366840!5m2!1sen!2sin\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
     },
     {
       "productId": "PL014",
@@ -249,7 +263,8 @@
       "coordinates": {
         "latitude": 19.2282,
         "longitude": 72.8614
-      }
+      },
+      "mapEmbed": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3767.4215020510346!2d72.9128422!3d19.2204535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b0c88b1d3d9f%3A0x3621dd69daa8e2cf!2sSanjay%20Gandhi%20National%20Park!5e0!3m2!1sen!2sin!4v1738073549679!5m2!1sen!2sin\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
     },
     {
       "productId": "PL015",
@@ -266,7 +281,8 @@
       "coordinates": {
         "latitude": 18.3873,
         "longitude": 73.7646
-      }
+      },
+      "mapEmbed": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3788.5391369031668!2d73.6219158!3d18.2769367!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2853370b087a1%3A0x66392c8c550573ec!2sTorna%20Fort!5e0!3m2!1sen!2sin!4v1738073594479!5m2!1sen!2sin\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
     },
     {
       "productId": "PL016",
@@ -283,7 +299,8 @@
       "coordinates": {
         "latitude": 18.7451,
         "longitude": 73.3479
-      }
+      },
+      "mapEmbed": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3776.2549519360014!2d73.39515039999999!3d18.8313284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7fe3e5f2fc1db%3A0x570d853467244a2a!2sRajmachi%20Fort!5e0!3m2!1sen!2sin!4v1738073643125!5m2!1sen!2sin\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
     },
     {
       "productId": "PL017",
@@ -300,7 +317,8 @@
       "coordinates": {
         "latitude": 18.409,
         "longitude": 73.9025
-      }
+      },
+      "mapEmbed": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3786.5834831436855!2d73.7558777!3d18.366277!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc293e6861118d9%3A0xcbb4d589c7d4e90b!2sSinhagad%20Fort!5e0!3m2!1sen!2sin!4v1738073691086!5m2!1sen!2sin\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
     },
     {
       "productId": "PL018",
@@ -318,7 +336,8 @@
       "coordinates": {
         "latitude": 18.9772,
         "longitude": 72.9158
-      }
+      },
+      "mapEmbed": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3773.2775176023442!2d72.9314864!3d18.9633474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c5307da3602f%3A0xf4ab181b1aaef53f!2sElephanta%20Caves!5e0!3m2!1sen!2sin!4v1738073741125!5m2!1sen!2sin\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
     },
     {
       "productId": "PL019",
@@ -335,7 +354,8 @@
       "coordinates": {
         "latitude": 17.9867,
         "longitude": 73.7208
-      }
+      },
+      "mapEmbed": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3795.893540834317!2d73.57820079999999!3d17.937118699999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bb8fc57af9f1%3A0xcd7f0daa3666eb!2sPratapgad%20Fort!5e0!3m2!1sen!2sin!4v1738073778259!5m2!1sen!2sin\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
     },
     {
       "productId": "PL020",
@@ -353,7 +373,8 @@
       "coordinates": {
         "latitude": 20.5199,
         "longitude": 77.5294
-      }
+      },
+      "mapEmbed": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7429.393146401459!2d77.3288959!3d21.401848849999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd6564b85853131%3A0x4228a9b733bcffe1!2sChikhaldara%2C%20Maharashtra%20444807!5e0!3m2!1sen!2sin!4v1738073821097!5m2!1sen!2sin\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
     },
     {
       "productId": "PL021",
@@ -370,7 +391,8 @@
       "coordinates": {
         "latitude": 19.3314,
         "longitude": 73.7242
-      }
+      },
+      "mapEmbed": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15058.633528687993!2d73.774552!3d19.3406247!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdd6c46320a44b9%3A0x82a69ed0c7c7a95c!2sMalshej%20Ghat!5e0!3m2!1sen!2sin!4v1738073863342!5m2!1sen!2sin\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
     },
     {
       "productId": "PL022",
@@ -387,7 +409,8 @@
       "coordinates": {
         "latitude": 19.9785,
         "longitude": 76.5319
-      }
+      },
+      "mapEmbed": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7499.516042261531!2d76.50811949999999!3d19.97667615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd0831f7893dac5%3A0xc44092ad4c581487!2sLonar%20Lake!5e0!3m2!1sen!2sin!4v1738073919978!5m2!1sen!2sin\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
     },
     {
       "productId": "PL023",
@@ -405,7 +428,8 @@
       "coordinates": {
         "latitude": 17.7494,
         "longitude": 73.274
-      }
+      },
+      "mapEmbed": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30396.250399937882!2d73.18867255!3d17.766710250000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be9c3de665f4d7b%3A0x411a32d91e51e834!2sDapoli%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1738073956358!5m2!1sen!2sin\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
     },
     {
       "productId": "PL024",
@@ -422,7 +446,8 @@
       "coordinates": {
         "latitude": 17.7564,
         "longitude": 73.7595
-      }
+      },
+      "mapEmbed": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15202.247831965331!2d73.82218119999999!3d17.718141499999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2156bb1b31937%3A0xa05920673b65bbde!2sKaas%20plateau!5e0!3m2!1sen!2sin!4v1738074066537!5m2!1sen!2sin\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
     },
     {
       "productId": "PL025",
@@ -440,7 +465,8 @@
       "coordinates": {
         "latitude": 19.8764,
         "longitude": 75.3472
-      }
+      },
+      "mapEmbed": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3751.1700541245323!2d75.3118906!3d19.917237500000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdb97921128355b%3A0x9829caaaae9c3ada!2sAurangabad%20Caves!5e0!3m2!1sen!2sin!4v1738074106546!5m2!1sen!2sin\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
     },
     {
       "productId": "PL026",
@@ -457,7 +483,8 @@
       "coordinates": {
         "latitude": 19.0452,
         "longitude": 73.0728
-      }
+      },
+      "mapEmbed": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15084.129616665325!2d73.04778490000001!3d19.062312849999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c184153bcf8b%3A0x22acd9a9e49b708f!2sPandavkada%20Falls!5e0!3m2!1sen!2sin!4v1738074150738!5m2!1sen!2sin\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
     },
     {
       "productId": "PL027",
@@ -474,7 +501,8 @@
       "coordinates": {
         "latitude": 17.6822,
         "longitude": 73.3213
-      }
+      },
+      "mapEmbed": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1904.0801839449746!2d73.21970354999999!3d17.3560146!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be9f64f3b38c799%3A0x5eab46eb5c390367!2sHedavi%20Beach!5e0!3m2!1sen!2sin!4v1738074198990!5m2!1sen!2sin\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
     },
     {
       "productId": "PL028",
@@ -492,7 +520,8 @@
       "coordinates": {
         "latitude": 16.7016,
         "longitude": 74.2427
-      }
+      },
+      "mapEmbed": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3821.6385666215756!2d74.22289520000001!3d16.694960450000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc0555a31825e95%3A0x48d3dac4a165bedf!2sShri%20Ambabai%20Temple%2C%20Kolhapur%20-%20Shakti%20Peetha!5e0!3m2!1sen!2sin!4v1738074257322!5m2!1sen!2sin\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
     }
   ]
 }

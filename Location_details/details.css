@@ -466,103 +466,37 @@ a {
   padding-bottom: 1.5rem;
 }
 
-/* Review Section */
-.review-section {
-  max-width: 1200px;
-  margin: 10rem auto;
-  display: flex;
-  gap: 20px;
+/* Map Container */
+.map-container {
+  max-width: 800px;
+  width: 100%;
+  margin: 5rem auto;
   padding: 20px;
-  background-color: #fff;
-  border-radius: 8px;
+  background: #fff;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.review-form {
-  flex: 1;
-  background-color: #f0f0f0;
-  padding: 20px;
   border-radius: 8px;
+}
+.map-container h3 {
+  font-size: 1.5rem;
+  margin-bottom: 3rem;
+  color: #333;
+  text-align: center;
+}
+#map {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%; /* Aspect ratio 16:9 */
+  border-radius: 8px;
+  overflow: hidden;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-
-.review-form input,
-.review-form textarea,
-.review-form button {
-  width: 100%;
-  margin-bottom: 10px;
-  padding: 10px;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-}
-
-.review-form button {
-  background-color: #007bff;
-  color: white;
-  border: none;
-  cursor: pointer;
-}
-
-.review-form button:hover {
-  background-color: #0056b3;
-}
-
-.slider {
-  flex: 1;
-  position: relative;
-  overflow: hidden;
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-.slider .reviews {
-  display: flex;
-  transition: transform 0.5s ease-in-out;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.slider .review-card {
-  flex: 0 0 100%;
-  box-sizing: border-box;
-  padding: 20px;
-  background-color: #fff;
-  border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  margin: 10px;
-}
-
-.review-card h4 {
-  margin: 0 0 10px;
-  color: #007bff;
-}
-
-.review-card p {
-  margin: 0;
-  color: #555;
-}
-
-.slider-controls {
-  display: flex;
-  justify-content: space-between;
+#map iframe {
   position: absolute;
-  top: 50%;
+  top: 0;
+  left: 0;
   width: 100%;
-  transform: translateY(-50%);
-}
-
-.slider-controls button {
-  background-color: rgba(0, 0, 0, 0.5);
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  cursor: pointer;
-  border-radius: 5px;
-}
-
-.slider-controls button:hover {
-  background-color: rgba(0, 0, 0, 0.8);
+  height: 100%;
+  border: 0;
 }
 
 /* Responsive Styles */
@@ -616,7 +550,7 @@ a {
 @media (max-width: 768px) {
   .carousel {
     height: 60vh;
-    top: 15%;
+    top: 25%;
   }
 
   .carousel .list .item {
@@ -673,9 +607,12 @@ a {
 }
 
 @media (max-width: 480px) {
+  #loc_name {
+    margin-bottom: 5rem;
+  }
   .carousel {
     height: 50vh;
-    top: 10%;
+    top: 25%;
   }
 
   .carousel .list .item {
@@ -699,12 +636,6 @@ a {
 
   #details > .description > p {
     font-size: 0.9rem;
-  }
-
-  .review-form input,
-  .review-form textarea,
-  .review-form button {
-    font-size: 12px;
   }
 
   .slider-controls button {
